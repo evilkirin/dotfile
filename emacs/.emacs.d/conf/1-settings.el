@@ -1,0 +1,46 @@
+(setq visible-bell t                        ;; turn off the irritating alarming bell
+      inhibit-startup-message t             
+      kill-ring-max 150
+      enable-recursive-minibuffers t
+      default-major-mode 'text-mode
+      show-paren-style 'parenthesis
+      user-full-name "Zac Tse"
+      user-mail-address "devilkirin@gmail.com"
+      dired-recursive-copies 'top           ;; Enable the dired to copy and delete directory recursively
+      dired-recursive-deletes 'top
+      scroll-margin 3                       ;; Conserve 3 lines against lower boundary when scroll down.
+      scroll-conservatively 10000
+      org-todo-keywords
+           '((sequence "TODO(t)" "|" "DONE(d)")
+             (sequence "REPORT(r)" "BUG(b)" "KNOWNCAUSE(k)" "|" "FIXED(f)")
+             (sequence "|" "CANCELED(c)"))
+      org-log-done 'note
+      org-completion-use-ido t
+      make-backup-files nil
+)
+(show-paren-mode t)
+(mouse-avoidance-mode 'animate)
+(auto-image-file-mode)
+(global-font-lock-mode t)
+(mouse-avoidance-mode 'animate)
+
+(menu-bar-mode -1)
+(tool-bar-mode -1)
+(ido-mode 1)
+(scroll-bar-mode -1)
+;(ruler-mode -1)
+(column-number-mode 1)
+;(linum-mode 1)
+
+(defalias 'list-buffers 'ibuffer)
+
+(add-hook 'find-file-hook
+	  '(lambda ()
+	     (auto-save-mode nil)
+	     (linum-mode 1)))
+
+(global-set-key (kbd "C-c m") (quote set-mark-command))
+(global-set-key (kbd "s-1 a") 'wy-go-to-char)
+(global-set-key "\C-cl" 'org-store-link)
+(global-set-key "\C-ca" 'org-agenda)
+(global-set-key "\C-cb" 'org-iswitchb)

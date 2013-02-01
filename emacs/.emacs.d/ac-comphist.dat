@@ -1,0 +1,52 @@
+((("org-log-done" .
+   [0 0 0 0 0 0 1 0 0 0 0 0])
+  ("linum-mode" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("column-number-mode" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("set-frame-size-and-position-initially" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("defun" .
+   [1 0 0 0 0])
+  ("set" .
+   [3 0 0])
+  ("interactive" .
+   [0 0 0 0 0 0 0 1 0 0 0])
+  ("if" .
+   [1 0])
+  ("window-system" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("set-frame-size" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("selected-frame" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("progn" .
+   [1 0 0 0 0])
+  ("set-frame-position" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("select-frame" .
+   [0 0 0 0 0 0 0 0 0 0 0 1])
+  ("true" .
+   [2 0 0 0])
+  ("happy" .
+   [1 0 0 0 0])
+  ("NoMethodError" .
+   [0 0 0 0 1 0 0 1 0 0 0 0 0])
+  ("setq" .
+   [6 0 0 0])
+  ("visible-bell" .
+   [0 0 0 0 0 0 0 0 0 1 0 0])
+  ("inhibit-startup-hooks" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("inhibit-startup-message" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("kill-ring-max" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("enable-recursive-minibuffers" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("default-major-mode" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("text-mode" .
+   [1 0 0 0 0 0 0 0 0])
+  ("show-paren-mode" .
+   [0 0 0 0 0 0 0 1 0 0 1 0 0 0 0])))
